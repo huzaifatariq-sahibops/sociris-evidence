@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Runtime databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local backups and tests
+*.pre-container
+.local-test/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

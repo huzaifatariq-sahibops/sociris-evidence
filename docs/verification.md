@@ -37,8 +37,7 @@ The first controlled stop exposed two genuine weaknesses:
 - The application required Docker's forced kill and exited 137.
 - Nginx waited too long for its unavailable upstream.
 
-The application was updated to handle `SI
-GTERM`, and bounded Nginx upstream timeouts were added.
+The application was updated to handle `SIGTERM`, and bounded Nginx upstream timeouts were added.
 
 The repeated test proved:
 
